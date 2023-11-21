@@ -1,0 +1,223 @@
+/* ----------------------Removing Default Styles------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+#loading{
+    width: 100%;
+    height: 100vh;
+    background-image: url(loader.gif);
+    background-position: center;
+    position: fixed;
+    background-size: 400px;
+    background-color: white;
+    background-repeat: no-repeat;
+    z-index: 500;
+}
+
+/* ----------------------Navigation----------------------------- */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6d91e5;
+    box-shadow: 0px 0px 10px 2px black;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav img{
+    margin-left: 8px;
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    transition: all 0.3s linear;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.navbar ul .active a{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+nav .fa-bars{
+    display: none;
+}
+.navbar .fa-xmark{
+    display: none;
+}
+
+/* -----------------------hero Section--------------------------- */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+.hero .side_containers{
+    flex-basis: 46%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.hero .side_containers img{
+    height: 600px;
+    width: 100%;
+}
+.hero .side_containers h1{
+    color: red;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+.hero .side_containers p{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: 'Roboto slab';
+}
+.hero .side_containers p .channel{
+    color: green;
+    font-weight: bold
+}
+.hero .side_containers a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 26px;
+    border-radius: 15px;
+    background-color: #FF2400;
+    color: white;
+}
+
+/* -----------------------------Videos Home Page------------------------------ */
+
+.homepage-video{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+}
+.flexbox .boxes{
+    margin-top: 40px;
+    height: 250px;
+    flex-basis: 31%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px plum;
+    border-radius: 10px;
+}
+.flexbox .boxes iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.homepage-video a{
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: red;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* -----------------------------footer--------------------------------- */
+
+footer{
+    background-color: #1AA260;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 15px
+}
+footer p{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer .social-icons{
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+/* -----------------------------------aboutus--------------------------------- */
+
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.about_us .sub_about_us{
+    flex-basis: 46%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.about_us .sub_about_us img{
+    height: 500px;
+    width: 100%;
+}
+.about_us .sub_about_us h1{
+    color: red;
+    font-family: 'Roboto';
+    padding-bottom: 15px;
+}
+.about_us .sub_about_us p{
+    font-family: 'Roboto Slab';
+}
+.about_us .sub_about_us h3{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: green;
+    font-size: 30px;
+}
+.about_us .sub_about_us a{
+    text-decoration: none;
+    display: flex;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab';
+}
+.about_us .sub_about_us .fa-youtube,
+.about_us .sub_about_us .fa-facebook,
+.about_us .sub_about_us .fa-instagram,
+.about_us .sub_about_us .fa-telegram{
+    color: #FF2400;
+    margin-right: 10px;
+}
+
+

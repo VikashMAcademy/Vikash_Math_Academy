@@ -1,0 +1,97 @@
+@media screen and (max-width:1000px){
+    .hero .side_containers h1{
+        font-size: 40px;
+    }
+    .hero .side_containers p{
+        font-size: 15px;
+    }
+    .hero .side_containers img{
+        height: 500px;
+    }
+    .flexbox .boxes{
+        flex-basis: 48%;
+    }
+    .about_us .sub_about_us h1{
+        font-size: 28px;
+    }
+    .about_us .sub_about_us p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav .fa-bars{
+        display: block;
+        margin-right: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+    }
+    .navbar{
+        position: absolute;
+        top: -120vh;
+        right: 0;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        transition: all 0.3s linear;
+    }
+    .navbar ul li{
+        display: block;
+        margin-top: 50px;
+        text-align: left;
+    }
+    .navbar ul .active a{
+        background-color: black;
+    }
+    .navbar .fa-xmark{
+        display: block;
+        position: absolute;
+        right: 0;
+        color: white;
+        margin-top: 10px;
+        font-size: 18px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hero .side_containers{
+        flex-basis: 98%;
+    }
+    .flexbox .boxes{
+        flex-basis: 98%;
+    }
+    .about_us{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero .side_containers h1{
+        font-size: 35px;
+    }
+    .hero .side_containers p{
+        font-size: 14px;
+    }
+    .hero .side_containers a{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    .about_us .sub_about_us h1{
+        font-size: 24px;
+    }
+    .about_us .sub_about_us p{
+        font-size: 13px;
+    }
+    .about_us .sub_about_us h3{
+        font-size: 25px;
+    }
+}
