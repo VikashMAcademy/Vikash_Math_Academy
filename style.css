@@ -300,3 +300,34 @@ footer .social-icons{
     border-radius: 7px;
     cursor: pointer;
 }
+
+/* --------------------About Page-------------------------- */
+
+.about-page{
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+}
+.about-page .page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+.about-page .page h1{
+    margin-bottom: 10px;
+}
+.about-page .page p{
+    margin-bottom: 10px;
+}
+.about-page .page a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    background-color: red;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}

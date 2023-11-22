@@ -76,6 +76,10 @@
     .form_div .form_box{
         width: 350px;
     }
+    .about-page .page h1{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -104,7 +108,7 @@
         height: 80vh;
     }
     .form_div .form_box{
-        width: 295px;
+        width: 305px;
         margin-top: 10px;
     }
     .form_div .form_box h1{
@@ -122,5 +126,12 @@
     }
     .form_div .form_box{
         padding: 50px 10px;
+    }
+    .about-page .page h1{
+        margin-bottom: 10px;
+        font-size: 19px;
+    } 
+    .about-page .page p{
+        font-size: 14px;
     }
 }
