@@ -70,6 +70,12 @@
         align-items: center;
         flex-direction: column-reverse;
     }
+    .form_div{
+        height: 90vh;
+    }
+    .form_div .form_box{
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -93,5 +99,14 @@
     }
     .about_us .sub_about_us h3{
         font-size: 25px;
+    }
+    .form_div{
+        height: 80vh;
+    }
+    .form_div .form_box{
+        width: 295px;
+    }
+    .form_div .form_box h1{
+        font-size: 20px;
     }
 }

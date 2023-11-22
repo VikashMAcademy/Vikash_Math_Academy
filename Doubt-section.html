@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash Maths Academy - Vikash Verma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald:wght@300;400&family=Roboto+Slab:wght@400;500&family=Roboto:wght@400;500&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body onload="myfunction()">
+
+<!-- -------------------------Preloader----------------------- -->
+    <div id="loading"></div>
+<!-- --------------------------nav bar----------------- -->
+
+<nav>
+    <img src="main_logo.jpg" alt="Logo">
+    <div class="navbar" id="navbar">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="mywork.html">My Works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Doubt-section.html">Doubt Section</a></li>
+        </ul>
+    </div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<!-- -----------------------------Doubt Form----------------------------- -->
+
+<div class="form_div">
+    <div class="form_box">
+        <h1>Ask A Question</h1>
+        <form action="https://formspree.io/f/xleykyqq"
+        method="POST">
+            <div class="input_box">
+                <input type="text" autocomplete="off" required name="Student Name">
+                <label>Your Name</label>
+            </div>
+            
+            <div class="input_box">
+                <input type="number" autocomplete="off" required name="Class" min="8" max="12">
+                <label>Class</label>
+            </div>
+
+            <div class="input_box">
+                <input type="text" autocomplete="off" required name="Subject">
+                <label>Subject</label>
+            </div>
+
+
+            <div class="input_box">
+                <input type="email" autocomplete="off" required name="Email Id">
+                <label>Email Id</label>
+            </div>
+
+            <div class="input_box">
+                <textarea name="Doubt/Question" id="doubt-area" placeholder="Enter Your Question"></textarea>
+            </div>
+
+            <input type="submit" value="Send Message"> 
+        </form>
+    </div>
+</div>
+
+<!-- --------------------------Footer------------------------- -->
+
+<footer>
+<p>Created With ❤️ By Vikash Maths Academy</p>
+<p>Follow On:-</p>
+<a href="#"><i class="fa-brands fa-youtube social-icons"></i></a>
+<a href="#"><i class="fa-brands fa-facebook social-icons"></i></a>
+<a href="#"><i class="fa-brands fa-instagram social-icons"></i></a>
+<a href="#"><i class="fa-brands fa-telegram social-icons"></i></a>
+</footer>
+
+
+
+
+
+
+<!-- ------------------Including Javascript---------- -->
+<script src="index.js"></script>
+<!-- ----------------The End------------------------- -->
+
+</body>
+</html>
