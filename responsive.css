@@ -105,8 +105,19 @@
     }
     .form_div .form_box{
         width: 295px;
+        margin-top: 10px;
     }
     .form_div .form_box h1{
         font-size: 20px;
+    }
+    .form_div .form_box .input_box input{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .form_div .form_box .input_box label{
+        font-size: 14px;
+    }
+    .form_div .form_box .input_box #doubt-area{
+        font-size: 15px;
     }
 }
