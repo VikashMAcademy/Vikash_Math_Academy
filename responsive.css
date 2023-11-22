@@ -120,4 +120,7 @@
     .form_div .form_box .input_box #doubt-area{
         font-size: 15px;
     }
+    .form_div .form_box{
+        padding: 50px 10px;
+    }
 }

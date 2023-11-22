@@ -298,4 +298,5 @@ footer .social-icons{
     background: #03a9f4;
     padding: 8px 16px;
     border-radius: 7px;
+    cursor: pointer;
 }
